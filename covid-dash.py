@@ -4,3 +4,5 @@ import dash
 from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output
+
+app = dash.Dash(__name__) #starts the app
